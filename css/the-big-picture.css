@@ -1,0 +1,134 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+}
+
+h2 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+}
+
+h3 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+}
+
+h4 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+}
+
+
+h5 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+}
+
+.prompt_txt {
+  color: rgb(48, 48, 48);
+  font-size: 1em;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+  border: none;
+  background-color: inherit;
+  padding: 0px 0px;
+  display: inline-block;
+}
+
+input {
+  color: rgb(48, 48, 48);
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  font-family: 'Comfortaa';
+  text-align: center;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+.preface_txt {
+  color: rgb(48, 48, 48);
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+  border: none;
+  background-color: inherit;
+  padding: 0px 0px;
+  display: inline-block;
+}
+
+.answer_txt {
+  color: rgb(48, 48, 48);
+  font-size: 3em;
+  letter-spacing: 3px;
+  font-family: 'Comfortaa';
+  border: none;
+  background-color: inherit;
+  padding: 0px 0px;
+  display: inline-block;
+}
+
+.container{
+  position: relative;
+}
+
+.element{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#preface {
+  opacity: 0;
+  transition: opacity 1s; 
+}
+
+#preface.fade {
+  opacity: 1;
+}
+
+#answer {
+  opacity: 0;
+  transition: opacity 1s; 
+}
+
+#answer.fade {
+  opacity: 1;
+}
+
+
+/* On mouse-over */
+.disabled:hover {color: #fff}
+
+/* When disabled */
+.disabled {
+  color: #fff;
+  pointer-events: none;
+}
+button:focus {outline:0;}
+
+div.absolute {
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  /* left: 100px; */
+  height: 375px;
+  /* height: 200px; */
+}
